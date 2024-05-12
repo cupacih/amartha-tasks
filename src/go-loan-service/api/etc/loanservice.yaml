@@ -1,0 +1,7 @@
+# Datasource: <username>:<pwd>@tcp(<ip>:<port>)/<database>
+Datasource: goloanservice:local123@tcp(localhost:3306)/loanservice
+ListenToPort: 50052
+LoansTableName: loans
+ApprovalInfoTableName: approval_info
+InvestmentsTableName: investments
+DisbursementTableName: disbursements
